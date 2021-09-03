@@ -8,7 +8,7 @@ keywords: 阅读,书单,2021,算法
 
 算法
 
-```aidl
+```java
 final void treeifyBin(Node<K,V>[] tab, int hash) {
         int n, index; Node<K,V> e;
         if (tab == null || (n = tab.length) < MIN_TREEIFY_CAPACITY)
